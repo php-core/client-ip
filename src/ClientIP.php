@@ -72,7 +72,7 @@ class ClientIP
 	/**
 	 * @var string $cachedIP cache of Client IP
 	 */
-	private static string $cachedIP;
+	private static ?string $cachedIP = null;
 
 	/**
 	 * Set configuration
