@@ -141,8 +141,7 @@ class ClientIP
 		}
 
 		/* String format */
-		if (!is_string($proxyIPs)) {
-
+		if (is_string($proxyIPs)) {
 			$proxyIPs = self::validateIP($proxyIPs) ? [$proxyIPs] : null;
 		}
 
