@@ -1,11 +1,17 @@
 {
   "name": "php-core/client-ip",
   "type": "library",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "iSecNew10",
+      "email": "php@isecnew10.com"
+    }
+  ],
   "autoload": {
     "psr-4": {
-      "\\PHPCore\\": "src/"
+      "PHPCore\\": "src",
     }
   },
   "require": {
