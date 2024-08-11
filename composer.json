@@ -1,0 +1,20 @@
+{
+  "name": "php-core/client-ip",
+  "type": "library",
+  "version": "1.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "PHPCore",
+      "email": "phpcore@relyonmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PHPCore\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  }
+}
